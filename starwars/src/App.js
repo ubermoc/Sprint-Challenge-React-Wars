@@ -55,10 +55,7 @@ const App = () => {
           );
         })}
       </AppContainer>
-      <div>
-        <br />
-        <br />
-      </div>
+      <div />
       <Button>
         <div className='PageButtons'>
           <button
