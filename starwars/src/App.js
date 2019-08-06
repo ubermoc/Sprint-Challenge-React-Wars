@@ -44,13 +44,13 @@ const App = () => {
           return (
             <People
               name={rebels.name}
-              key={index}
-              height={rebels.height}
               birthday={rebels.birth_year}
               eye={rebels.eye_color}
-              gender={rebels.gender}
+              height={rebels.height}
               weight={rebels.mass}
+              gender={rebels.gender}
               skin={rebels.skin_color}
+              key={index}
             />
           );
         })}
